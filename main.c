@@ -25,13 +25,13 @@ int main(void)
     // VOTRE CODE CI-DESSOUS
     // INSTRUCTIONS EXECUTEES UNE SEULE FOIS AU DEMARRAGE
     //----------------------------------------------------------
-    unsigned int distance;
+    unsigned int distance; //crée une variable pour la distance
     while(1){
         //----------------------------------------------------------
         // VOTRE CODE CI-DESSOUS
         // INSTRUCTIONS EXECUTEES EN BOUCLE INDEFINIMENT
         //----------------------------------------------------------
-        distance = ultrason_distance();
+        distance = ultrason_distance(); //verifie la distance en cm
         printf(distance);
     }
 }
